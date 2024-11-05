@@ -152,13 +152,13 @@ img {
 .texto1 img{
   height: 200px;
   width: 350px;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .texto2 img{
   height: 400px;
-  width: 600px;
-  margin-right: 50px;
+  width: 600x;
+  margin-right: 0px;
 }
 
 .container{
