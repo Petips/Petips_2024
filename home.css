@@ -1,0 +1,178 @@
+
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #d6d7d6;
+}
+
+header {
+  width: 100%;
+  background: #339999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px; /* altura */
+
+}
+
+header h1 {
+  background: #339999;
+  text-align: center;
+   font-family: "Finger Paint", sans-serif;/*fonte*/
+    font-size: 100px;
+  }
+
+.h2 {
+  background:#d6d7d6 ;
+  width: 50%;
+  height: 40px;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 40px;
+  padding-top: 30px;
+}
+
+.h3 {
+  background:#d6d7d6 ;
+  width: 50%;
+  height: 40px;
+  text-align: left;
+  font-size: 30px;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+.h4 {
+  background:#d6d7d6 ;
+  width: 50%;
+  height: 40px;
+  text-align: left;
+  font-size: 35px;
+  margin-left: 2px;
+  padding-top: -10px;
+}
+
+
+
+.navegacao {
+
+  background-color: #80b380;
+  width: 100%;
+  height: 70px; /* altura */
+
+  display: flex;
+  align-items: center;     /*centralizar tudo na navegação*/
+  justify-content: center;
+
+}
+
+
+button {
+  background: #69ab69;
+  width: 110px;
+  height: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+button strong {
+  background: #69ab69;
+  color: black;
+  font-size: 30px;
+  
+}
+
+button:hover{
+  transform: scale(1.09); /*fazer movimento aos botões*/
+
+}
+
+img {
+  background: #80b380;
+  width: 50px;
+  height: 50px; 
+
+  position: relative;
+  top: center; /*colocando a imagem das patinhas no meio*/
+}
+
+aside{
+  width: 400px;
+  background: #339999;
+  margin-top: 75px;
+  height: 390px; /* altura */
+  float: right;
+  margin-right: 45px;
+}
+
+aside figure img{
+  max-width: 400px;
+  width: 100%;
+  height: 390px;
+}
+
+  
+.corpo_do_site {
+  margin: 20px;
+  padding-top: 20px;
+  font-size: 19px;
+}
+
+.texto1 {
+  display: flex;
+  margin-bottom: 30px;
+  width: 60%;
+  padding-top: 20px;
+  margin-left: 22px;
+}
+
+.texto2{
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: -45px;
+  margin-top: -15px;
+  width: 63%;
+}
+
+.texto3 {
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: -20px;
+  margin-top: -15px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  /* Adjust layout for smaller screens */
+  header h1 {
+    font-size: 50px; /* Reduce font size */
+  }
+
+  .h2, .h3, .h4 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  aside {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .texto1, .texto2, .texto3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto1 img, .texto2 img, .texto3 img {
+    width: 100%;
+  }
+}
