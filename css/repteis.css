@@ -311,41 +311,7 @@ img {
  }
 
 
- /* ... your existing CSS ... */
-
-@media (max-width: 768px) {
-  /* Adjust layout for smaller screens */
-  header h1 {
-    font-size: 50px; /* Reduce font size */
-  }
-
-  .h2, .h3, .h4, .h5, .h6, .h7, .h8 {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-  }
-
-  .texto1, .texto2, .texto3, .texto4, .texto5 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .texto1 img, .texto2 img, .texto3 img, .texto4 img {
-    width: 100%;
-  }
-
-  aside {
-    width: 100%;
-    float: none;
-    margin: 0 auto;
-  }
-
-  .img1, .img2, .img3, .img4, .img5, .img6 {
-    width: 100%;
-    float: none;
-    margin: 0 auto;
-  }
-}
+ 
 /*Não mexer daqui pra cima!!!*/
 
 
