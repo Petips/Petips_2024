@@ -261,7 +261,7 @@ aside figure img{
   margin-top: -5px;
   height: 250px; /* altura */
   float: left;
-  margin-left: 125px;
+  margin-left: 172px;
   text-align: center;
   font-size: 18px;
 }
@@ -313,7 +313,7 @@ aside figure img{
   margin-top: 70px;
   height: 250px; /* altura */
   float: left;
-  margin-left: 125px;
+  margin-left: 172px;
   text-align: center;
   font-size: 18px;
 }
@@ -343,14 +343,14 @@ aside figure img{
 
 .video1{
  margin-top: 10px;
- margin-left: -60px;  
+ margin-left: -50px;  
   font-size: 22px;
 
 }
 
 .video2{
  margin-top: -410px;
- margin-left: 600px;
+ margin-left: 685px;
   font-size: 22px;
 }
 
